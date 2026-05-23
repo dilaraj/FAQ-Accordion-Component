@@ -1,5 +1,15 @@
+@font-face {
+  font-family: WorkSans;
+  src: url('./assets/fonts/WorkSans-VariableFont_wght.ttf');
+}
+
+* {
+  font-family: WorkSans;
+}
+
 body {
   margin: 0;
   padding: 0;
   height: 100vh;
+  background-color: hsl(275, 100%, 97%);
 }

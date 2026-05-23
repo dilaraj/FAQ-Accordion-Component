@@ -1,0 +1,32 @@
+.faq-question {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.25em;
+}
+
+.faq-question span {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: hsl(292, 42%, 14%);
+}
+
+.openIcon,
+.closeIcon {
+    height: 3em;
+    width: auto;
+}
+
+.toggle-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.faq-answer {
+    color: hsl(292, 16%, 49%);
+    font-size: 0.95rem;
+    line-height: 20px;
+    padding-top: 1em;
+    font-weight: 400;
+}
