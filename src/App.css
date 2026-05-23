@@ -46,3 +46,25 @@
     border: 0.75px solid hsla(293, 16%, 49%, 0.298);
     margin: 1em 0;
 }
+
+@media (min-width: 768px) {
+    .mobileBgImg {
+        display: none;
+    }
+
+    .desktopBgImg {
+        display: block;
+    }
+
+    .faq-accordion-container {
+        max-width: 33em;
+    }
+
+    .faq-header span {
+        font-size: 3rem;
+    }
+
+    .star-icon {
+        height: 1.5em;
+    }
+}
